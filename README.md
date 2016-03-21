@@ -36,10 +36,14 @@ limit - The limit in the number of bytes Metainspector will download when queryi
 headers - any request headers you'd like MetaInspector to add to its request on your behalf
 ```
 
+## Install
+
+`npm install node-metainspector-with-headers --save`
+
 ## Usage
 
 ```javascript
-var MetaInspector = require('node-metainspector');
+var MetaInspector = require('node-metainspector-with-headers');
 var client = new MetaInspector("http://www.google.com", { timeout: 5000 });
 
 client.on("fetch", function(){
