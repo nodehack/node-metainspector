@@ -4,7 +4,7 @@
   "version": "1.2.1",
   "homepage": "http://github.com/nodehack/node-metainspector",
   "repository": "git://github.com/nodehack/node-metainspector.git",
-  "author": "Tom Feldmann <feldmata@gmail.com> ()",
+  "author": "Tom Feldmann <feldmata@gmail.com> (https://github.com/nodehack)",
   "main": "./index.js",
   "dependencies": {
     "request": "~2.58.0",
