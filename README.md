@@ -35,6 +35,7 @@ client.ogLocale             # Open Graph Locale - for languages
 timeout - Defines the time Metainspector will wait for the url to respond in ms
 maxRedirects - Specifies the number of redirects Metainspector will follow
 limit - The limit in the number of bytes Metainspector will download when querying a site
+headers - any request headers you'd like MetaInspector to add to its request on your behalf
 ```
 
 ## Usage
@@ -75,4 +76,3 @@ You're welcome to fork this project and send pull requests. Just remember to inc
 Copyright (c) 2009-2012 Gabriel Cebrian, released under the MIT license
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gabceb/node-metainspector/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
