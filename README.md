@@ -1,5 +1,3 @@
-![status](https://secure.travis-ci.org/gabceb/node-metainspector.png?branch=master)
-
 ## Node-Metainspector
 
 MetaInspector is an npm package for web scraping purposes. You give it an URL, and it lets you easily get its title, links, images, description, keywords, meta tags....
@@ -70,9 +68,5 @@ client.external_links     	# array of strings, with every external link found on
 
 ```
 
-## ZOMG Fork! Thank you!
-You're welcome to fork this project and send pull requests. Just remember to include tests.
-
-Copyright (c) 2009-2012 Gabriel Cebrian, released under the MIT license
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gabceb/node-metainspector/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+## Forked!
+This is a forked project that adds the `headers` option.  If none is provided a user-agent header of `MetaInspector/1.0` is added to the request.  Please see the original project @ [https://github.com/gabceb/node-metainspector](https://github.com/gabceb/node-metainspector).
